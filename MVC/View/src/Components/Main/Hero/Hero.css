@@ -1,0 +1,42 @@
+#hero{
+    background-image:linear-gradient(to right, #0000007f, #0000007f), url('https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .hero-cont{
+
+        color: white;
+
+        h2{
+            font-weight: 300;
+            font-size: 50px;
+            width: 55%;
+            margin: 0px auto;
+        }
+        p{
+            width: 70%;
+            color: #ffffff97;
+            margin: 0px auto;
+            font-weight: 300;
+        }
+        button{
+            margin: 30px auto;
+            letter-spacing: 2px ;
+            font-size: 18px;
+            font-weight: 200;
+            padding:15px 20px;
+            background-color: #F23A2E;
+            color: white;
+            border: none;
+            border-radius:3px;
+        }
+    }
+
+}

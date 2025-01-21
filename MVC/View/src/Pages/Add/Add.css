@@ -1,0 +1,33 @@
+#add{
+  h2{
+      margin: 40px;
+      text-align: center;
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+      width: max-content;
+      gap: 10px;
+      margin: 10px auto 30px;
+      background-color: #4b007c69;
+      padding: 20px;
+      border-radius: 5px;
+          input{
+              width: 700px;
+              padding: 10px;
+              border-radius: 5px;
+              border: none;
+          }
+          button{
+              border: none;
+              padding: 10px;
+              border-radius: 5px;
+              background-color: white;
+              cursor: pointer;
+          }
+  }
+
+  .tableim{
+      margin: 100px auto;
+  }
+}

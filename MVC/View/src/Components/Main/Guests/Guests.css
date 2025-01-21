@@ -1,0 +1,29 @@
+#guests{
+    padding: 70px 15%;
+    background-color: #F8F9FA;
+    .guests-cards{
+        display: grid;
+        padding: 30px 0;
+        gap: 30px;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        .guests-card{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 60px;
+            text-align: center;
+            gap: 20px;
+            img{
+                width: 140px;
+                border-radius: 50%;
+            }
+            h4{
+                font-weight: 200;
+            }
+            p{
+                font-weight: 200;
+            }
+        }
+    }
+}

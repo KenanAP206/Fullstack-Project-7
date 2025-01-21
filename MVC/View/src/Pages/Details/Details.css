@@ -1,0 +1,13 @@
+#details{
+    display: flex;
+    justify-content: center;
+    margin: 200px auto;
+    z-index: 10;
+    button{
+
+        svg{
+            font-size: 30px;
+            color: red;
+        }
+    }
+}
